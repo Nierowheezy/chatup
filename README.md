@@ -1,7 +1,7 @@
 # ✨ Full Stack Realtime Chat App ✨
 
 ![Demo App](/frontend/public/chatup.png)
-![Demo App](/backend/src/swagger-docs.png)
+![Swagger Docs](/backend/src/docs/swagger-docs.png)
 
 Highlights:
 
