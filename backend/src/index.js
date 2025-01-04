@@ -6,6 +6,7 @@ import cors from "cors";
 import path from "path";
 
 import { connectDB } from "./lib/db.js";
+import { setupSwagger } from "./lib/swagger.js";
 
 import authRoutes from "./routes/auth.route.js";
 import messageRoutes from "./routes/message.route.js";
@@ -16,6 +17,7 @@ dotenv.config();
 const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
+//middlewware
 app.use(express.json());
 app.use(cookieParser());
 app.use(
@@ -24,6 +26,9 @@ app.use(
     credentials: true,
   })
 );
+
+// Swagger setup
+setupSwagger(app);
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
