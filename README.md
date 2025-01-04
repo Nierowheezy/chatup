@@ -10,10 +10,14 @@ Highlights:
 - 🚀 Online user status
 - 👌 Global state management with Zustand
 - 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+- ⭐ Seamless Deployment
+- ⏳ cheers !
 
-### Setup .env file
+### Setup .env file 
+
+- cd backend 
+- check the .env file
+- add the configs for each as seen below
 
 ```js
 MONGODB_URI=...
@@ -29,11 +33,17 @@ NODE_ENV=development
 
 ### Build the app
 
+- Run this command 
+
 ```shell
 npm run build
 ```
 
+
 ### Start the app
+
+- Run this command 
+
 
 ```shell
 npm start
