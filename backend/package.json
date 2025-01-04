@@ -5,10 +5,11 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "seed": "node src/seeds/user.seed.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Olabode Olaniyi",
   "type": "module",
   "license": "ISC",
   "dependencies": {

@@ -14,6 +14,8 @@ Highlights:
 - ⭐ Seamless Deployment
 - ⏳ cheers !
 
+
+
 ### Setup .env file 
 
 - cd backend 
@@ -48,4 +50,14 @@ npm run build
 
 ```shell
 npm start
+```
+
+
+### To seed mock user data into the database
+
+- cd into backend
+- run this command 
+
+```shell
+npm run seed 
 ```
