@@ -61,3 +61,10 @@ npm start
 ```shell
 npm run seed 
 ```
+
+
+### Visit the deployed version here
+
+
+[ChatUp](https://chatup-lful.onrender.com)
+
